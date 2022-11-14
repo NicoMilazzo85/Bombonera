@@ -14,34 +14,51 @@ header {
   font-size: 25px;
   color: white;
   display: flex;
-  justify-content: space-between;
   padding: 20px;
   text-shadow: 0 0 5px black;
+}
+
+.logo {
+  float: left;
 }
 
 .logo span {
   color: yellow;
 }
 
-.barra {
-  font-size: 25px;
+nav {
+  overflow: visible;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: yellow;
+  text-shadow: 0 0 0, 5px white;
+  padding: 20px;
 }
 
 main {
   background-image: url(./img/la12.jpg);
-  height: 100vh;
+  height: 800px;
   width: 100%;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 }
 
 .labombonera {
   width: 40%;
+  height: max-content;
   background-color: rgba(0, 0, 0, 0.61);
   border: 2px solid rgb(252, 248, 2);
   border-radius: 5px;
-  float: right;
-  margin: 20px;
+  margin: auto;
   padding: 20px;
 }
 
@@ -63,6 +80,29 @@ h1 {
   color: yellow;
   padding: 10px 15px;
   font-family: serif;
+}
+
+.ins-parr {
+  width: 80%;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.61);
+  border: 2px solid rgb(252, 248, 2);
+  border-radius: 5px;
+  margin: 100px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.institucional h1 {
+  color: yellow;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.parrafo-ins {
+  color: white;
+  margin-bottom: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
@@ -167,10 +207,6 @@ h2 {
   background-position: center;
 }
 
-.main {
-  background-image: url(./img/la12.jpg);
-}
-
 a {
   text-decoration: none;
 }
@@ -179,16 +215,24 @@ a:hover {
   color: white;
 }
 
+.row {
+  align-items: center;
+}
+
 .col-sm-3 {
   color: rgb(255, 255, 0);
   background-color: rgba(0, 0, 255, 0.521);
   border: 2px rgb(245, 241, 4) solid;
   text-align: center;
   line-height: 80px;
-  justify-self: center;
   height: 80px;
-  margin-top: 60px;
+  margin-top: 50px;
+  text-align: center;
   overflow: hidden;
+}
+
+.row {
+  margin: auto;
 }
 
 .adherente {
@@ -253,6 +297,16 @@ footer {
   color: rgb(6, 212, 248);
 }
 
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .row {
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 701px) {
+  .row {
+    margin-left: 20px;
+  }
+}
 @media only screen and (min-width: 480px) {
   .elclub {
     display: flex;

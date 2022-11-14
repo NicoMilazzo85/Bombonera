@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ]
+  }
+}
