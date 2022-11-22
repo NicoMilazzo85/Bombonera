@@ -23,24 +23,23 @@ width: 100%;
 background-color: blue;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 25px;
+display: flexbox;
 color: white;
-display: flex; 
 padding: 20px;
 text-shadow: 0 0 5px black;
 }
 
-.logo{
-    float: left;
+.navbar{
+    background-color: blue;
+    padding: 10px;
 }
-.logo span{
+.navbar-brand{
+    color: white;
+}
+.navbar-brand span{
 color: yellow;
 }
-nav{
-    overflow:visible;
-}
-.navbar{
-    margin-left: auto; 
-}
+
 .nav-link{
     font-size: 20px;
     color: yellow;
@@ -56,6 +55,11 @@ background-size: cover;
 background-position: center;
 display: flex; flex-direction: row; align-content:center;
 
+}
+
+.maincontacto{
+    padding-left: 100px;
+    color: yellow;
 }
 .labombonera{
 width: 40%;
@@ -86,6 +90,10 @@ font-family: serif;
 
 }
 
+.mainins{
+    display: flex;
+}
+
 .ins-parr{
 width: 80%;
 height: max-content;
@@ -94,7 +102,6 @@ border: 2px solid rgb(252, 248, 2);
 border-radius: 5px;
 margin: 100px;
 padding: 20px;
-overflow:auto;
 }
 
 .institucional h1{
@@ -114,7 +121,59 @@ text-align: center;
 color: yellow;
 font-family:'Times New Roman', Times, serif;
 padding: 10px;
+margin: 0;
 }
+
+.Planteles{
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+
+}
+.left2{
+    background-image: url(./img/plantel\ actual.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 50%;
+    margin:0;
+}
+.right1{
+    width: 50%;
+    height: auto;
+    background-image: url(./img/plantel\ 98.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.plantdes{
+    width: 100%;
+    height: 300px;
+
+    overflow: hidden;
+
+}
+.planact{
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: blue;
+    color: yellow;
+
+}
+
+.plant98{
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding: 20px;
+    background-color: yellow;
+    color: blue;
+}
+
 .elclub{
 width: 100%;
 height: 450px;
@@ -230,6 +289,8 @@ padding: 10px;
 font-size: 15px;
 color: white;
 text-shadow: 0 0 5px yellow;
+width: 100%;
+border: 1px solid blue;
 }
 .redes{
 font-size: 40px;
@@ -274,6 +335,60 @@ text-shadow: 0 0 5px rgb(245, 6, 97);
 color: rgb(6, 212, 248);
 }
 
+@media screen and (min-width:200px) and (max-width:950px) {
+    .mainins{
+        height: auto;
+
+
+    }
+}
+@media screen and (min-width:200px) and (max-width:549px){
+    .Planteles{
+        height: 90px;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:700px){
+    .Planteles{
+        height: 150px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    .Planteles{
+        height: 175px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1080px){
+    .Planteles{
+        height: 225px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:950px){
+    .plantdes{
+        height: auto;
+
+    }
+}
+
+@media screen and (min-width:200px)
+{
+    .labombonera{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width: 600px) {
+    .elclub{
+        height: auto;
+    }
+}
+@media only screen and (min-width:601px) and (max-width: 900px) {
+    .elclub{
+        height: auto;
+    }
+}
+
 @media only screen and (min-width:300px) and (max-width: 600px){
    .row{
     margin: 0%;
@@ -290,7 +405,7 @@ color: rgb(6, 212, 248);
 }
 .left{
     width: 50%;
-    height: 100%;
+    height: auto;
     background-position: center;
     background-size: cover;
 }

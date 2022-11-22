@@ -1,5 +1,483 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Inter & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  display: flexbox;
+  color: white;
+  padding: 20px;
+  text-shadow: 0 0 5px black;
+}
+
+.navbar {
+  background-color: blue;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand span {
+  color: yellow;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: yellow;
+  text-shadow: 0 0 0, 5px white;
+  padding: 20px;
+}
+
+main {
+  background-image: url(./img/la12.jpg);
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.maincontacto {
+  padding-left: 100px;
+  color: yellow;
+}
+
+.labombonera {
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.61);
+  border: 2px solid rgb(252, 248, 2);
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.labombonera p {
+  color: white;
+  margin-bottom: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.labombonera a {
+  background-color: blue;
+  text-decoration: none;
+  color: yellow;
+  padding: 10px 15px;
+  font-family: serif;
+}
+
+.mainins {
+  display: flex;
+}
+
+.ins-parr {
+  width: 80%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.61);
+  border: 2px solid rgb(252, 248, 2);
+  border-radius: 5px;
+  margin: 100px;
+  padding: 20px;
+}
+
+.institucional h1 {
+  color: yellow;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.parrafo-ins {
+  color: white;
+  margin-bottom: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  background-color: blue;
+  text-align: center;
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  margin: 0;
+}
+
+.Planteles {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.left2 {
+  background-image: url(./img/plantel\ actual.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 50%;
+  margin: 0;
+}
+
+.right1 {
+  width: 50%;
+  height: auto;
+  background-image: url(./img/plantel\ 98.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.plantdes {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.planact {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding: 20px;
+  background-color: blue;
+  color: yellow;
+}
+
+.plant98 {
+  height: 100%;
+  width: 50%;
+  float: right;
+  padding: 20px;
+  background-color: yellow;
+  color: blue;
+}
+
+.elclub {
+  width: 100%;
+  height: 450px;
+}
+
+.left {
+  background-image: url(./img/Bomboneranueva.jpg);
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+}
+
+.right {
+  padding: 20px;
+}
+
+.right h3 {
+  text-align: center;
+}
+
+.right p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+}
+
+.galeria {
+  background-color: gray;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  width: 100%;
+  border: 2px solid white;
+}
+
+.item:hover {
+  transform: scale(1.3);
+  transition: all 1s;
+}
+
+.item1 {
+  background-image: url(./img/adoquines.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item2 {
+  background-image: url(./img/alambrado.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 {
+  background-image: url(./img/caminito2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item4 {
+  background-image: url(./img/caminito1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item5 {
+  background-image: url(./img/pelota-afajpg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item6 {
+  background-image: url(./img/hinchada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item7 {
+  background-image: url(./img/hinchada2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item8 {
+  background-image: url(./img/vistasuperior.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.row {
+  align-items: center;
+}
+
+.col-sm-3 {
+  color: rgb(255, 255, 0);
+  background-color: rgba(0, 0, 255, 0.521);
+  border: 2px rgb(245, 241, 4) solid;
+  text-align: center;
+  line-height: 80px;
+  height: 80px;
+  margin-top: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  margin: auto;
+}
+
+.adherente {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: blue;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0 0 5px yellow;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.redes {
+  font-size: 40px;
+  color: wheat;
+  text-shadow: 0 0 5px black;
+  letter-spacing: 10px;
+  margin-top: 15px;
+}
+
+.Nicolás {
+  color: white;
+  text-decoration: none;
+}
+
+.face {
+  Color: rgb(12, 8, 248);
+  text-shadow: 0 0 10px white;
+}
+
+.IG {
+  color: rgb(224, 16, 96);
+  text-shadow: 0 0 5px rgb(245, 6, 97);
+}
+
+.TT {
+  color: rgb(6, 212, 248);
+}
+
+.redes2 {
+  font-size: 40px;
+  color: rgb(247, 231, 6);
+  text-shadow: 0 0 5px black;
+  letter-spacing: 10px;
+  margin-top: 15px;
+}
+
+.face2 {
+  Color: rgb(12, 8, 248);
+  text-shadow: 0 0 10px white;
+}
+
+.IG2 {
+  color: rgb(224, 16, 96);
+  text-shadow: 0 0 5px rgb(245, 6, 97);
+}
+
+.TT2 {
+  color: rgb(6, 212, 248);
+}
+
+@media screen and (min-width: 200px) and (max-width: 950px) {
+  .mainins {
+    height: auto;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 549px) {
+  .Planteles {
+    height: 90px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .Planteles {
+    height: 150px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .Planteles {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1080px) {
+  .Planteles {
+    height: 225px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 950px) {
+  .plantdes {
+    height: auto;
+  }
+}
+@media screen and (min-width: 200px) {
+  .labombonera {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .elclub {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .elclub {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .row {
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 701px) {
+  .row {
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .elclub {
+    display: flex;
+  }
+  .left {
+    width: 50%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .right {
+    width: 50%;
+    height: 100%;
+  }
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .item4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 3/5;
+  }
+  .item8 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+  }
+}
 .right {
   background-color: blue;
   color: white;
+  text-align: justify;
+  height: auto;
+  overflow: auto;
+}
+
+h2 {
+  background-color: yellow;
+  color: blue;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+  color: blue;
 }/*# sourceMappingURL=estilos.css.map */
